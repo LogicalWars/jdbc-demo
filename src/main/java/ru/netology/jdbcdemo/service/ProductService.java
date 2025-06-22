@@ -1,7 +1,8 @@
-package ru.netology.jdbcdemo;
+package ru.netology.jdbcdemo.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import ru.netology.jdbcdemo.repository.PostgresRepository;
 
 @Service
 @RequiredArgsConstructor
